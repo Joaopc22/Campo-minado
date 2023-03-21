@@ -1,7 +1,7 @@
 Algoritmo "campo-minado"
 // Disciplina   : LP
-// DescriÁ„o   : jogo "campo minado" feito no visualg
-// Autor(a)    : Jo„o pedro Alferi/Caetano
+// Descri√ß√£o   : jogo "campo minado" feito no visualg
+// Autor(a)    : Jo√£o pedro Alferi/Caetano
 // Data atual  : 19/03/2023
 Var
 
@@ -17,7 +17,7 @@ Var
   
 Inicio
 
-  //pontuaÁ„o do jogador
+  //pontua√ß√£o do jogador
   pon := 0
 
   //mapeamento do campo
@@ -96,7 +96,7 @@ Inicio
   leia (coluna)
 
     
-   //informa se o jogador acertou, ou n„o, preenche o campo e adicina os pontos
+   //informa se o jogador acertou, ou n√£o, preenche o campo e adicina os pontos
    se tab1[linha, coluna] = 1  entao
     escreva ("PERDEU!!!")
     tab2[linha,coluna]:= " / B / "
@@ -114,10 +114,10 @@ Inicio
    escreval
    fimpara
 
-   se pon = 31 entao
+   se pon = 28 entao
     escreva ("VENCEU")
    fimse
 
-  ate (tab1[linha, coluna] = 1) ou (pon = 31)
+  ate (tab1[linha, coluna] = 1) ou (pon = 28)
   
 Fimalgoritmo
